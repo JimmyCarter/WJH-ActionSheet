@@ -91,8 +91,8 @@ It is a simple WJH-ActionSheet example, don't worry about the indent
   #  Not including the public_header_files will make all headers public.
   #
 
-#s.source_files  = "WJH-ActionSheet/*.{h,m}"
-#s.exclude_files = "WJH-ActionSheet/Exclude"
+s.source_files  = "WJH-ActionSheet/**/*.{h,m}"
+#s.exclude_files = "WJH-ActionSheet/*.png"
 
   # s.public_header_files = "Classes/**/*.h"
 
