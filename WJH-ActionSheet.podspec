@@ -65,7 +65,7 @@ It is a simple WJH-ActionSheet example, don't worry about the indent
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,7 +91,7 @@ It is a simple WJH-ActionSheet example, don't worry about the indent
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "gitConfig/*.{h,m}"
+s.source_files  = "gitConfig/**/*.{h,m}"
 #s.exclude_files = "gitConfig/*.png"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -119,7 +119,7 @@ s.source_files  = "gitConfig/*.{h,m}"
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-
+ s.frameworks = "CoreTelephony","SystemConfiguration","UIKit","Foundation"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
